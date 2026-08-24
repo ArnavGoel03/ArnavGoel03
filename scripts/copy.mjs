@@ -25,6 +25,7 @@ export const STRINGS = {
   site: 'arnavgoel.dev',
 
   // Provenance: GitHub's own profile UI vocabulary.
+  commits: 'COMMITS',
   contributions: 'CONTRIBUTIONS',
   repositories: 'REPOSITORIES',
   languages: 'LANGUAGES',
@@ -42,6 +43,16 @@ export const STRINGS = {
  * Month initials for the contribution axis. Calendar data, not authored copy.
  */
 export const MONTHS = ['J','F','M','A','M','J','J','A','S','O','N','D'];
+/** punch_card indexes days from Sunday. */
+export const DAYS = ['Su','Mo','Tu','We','Th','Fr','Sa'];
+
+/**
+ * The clock renders in this offset rather than UTC, because no local offset
+ * survives in the commit data: GitHub returns every timestamp as Z, even on
+ * the raw REST commit objects. The panel prints the label so the reading is
+ * never ambiguous. Change both fields together if the working timezone does.
+ */
+export const TIMEZONE = { label: 'UTC+05:30', offsetMinutes: 330 };
 
 /**
  * Which public repos appear in the showcase strip, in display order.

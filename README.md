@@ -10,6 +10,11 @@ UCSD Data Science, graduating June 2026 - BS Data Science with a minor in Entrep
   <img alt="Contributions in the last year" src="assets/telemetry-light.svg">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clock-dark.svg">
+  <img alt="Commits by hour and weekday" src="assets/clock-light.svg">
+</picture>
+
 **Currently building**
 - Systematic-strategy research at **Triton Quantitative Trading** (UCSD)
 - The full-stack platform for [Gondilal Saraf](https://gondilalsaraf.com) - my family's 110-year-old jewelry business

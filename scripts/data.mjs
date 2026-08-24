@@ -11,7 +11,7 @@ import { execFileSync } from 'node:child_process';
 const LOGIN = 'ArnavGoel03';
 const API = 'https://api.github.com/graphql';
 
-function token() {
+export function authToken() {
   const env = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
   if (env) return env;
   try {
@@ -46,7 +46,7 @@ const QUERY = `{
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
       totalCount
       nodes {
-        name description url homepageUrl updatedAt
+        name nameWithOwner description url homepageUrl updatedAt
         primaryLanguage { name }
         languages(first: 8, orderBy: { field: SIZE, direction: DESC }) {
           edges { size node { name } }
@@ -57,7 +57,7 @@ const QUERY = `{
 }`;
 
 export async function fetchData() {
-  const data = await gql(QUERY, token());
+  const data = await gql(QUERY, authToken());
   const u = data.user;
   const cal = u.contributionsCollection.contributionCalendar;
 

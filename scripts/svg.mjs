@@ -114,3 +114,31 @@ export function panel(w, h, body, style = '') {
 ${body}
 </svg>`;
 }
+
+/**
+ * A micro histogram of weekly counts.
+ *
+ * Bars, not an area chart: these buckets are discrete weeks, and an area
+ * implies a continuity they do not have. It also matters for sparse repos.
+ * A repo that lay dormant for a year and then burst renders as a single wall
+ * under an area chart, which reads as a clipping bug; as bars it reads as
+ * exactly what it is, a quiet year and a spike.
+ */
+export function sparkline(values, x, y, w, h, stroke) {
+  if (!values?.length) return '';
+  const max = Math.max(...values, 1);
+  const slot = w / values.length;
+  const bw = Math.max(1, slot * 0.72);
+  const bars = values.map((v, i) => {
+    if (!v) return '';
+    const bh = Math.max(1, (v / max) * h);
+    return `<rect x="${(x + i * slot).toFixed(1)}" y="${(y + h - bh).toFixed(1)}" width="${bw.toFixed(1)}" height="${bh.toFixed(1)}" fill="${stroke}"/>`;
+  }).join('');
+  return `<line x1="${x}" y1="${y + h + 1.5}" x2="${x + w}" y2="${y + h + 1.5}" stroke="${stroke}" stroke-opacity=".28" stroke-width="1"/>${bars}`;
+}
+
+/** Point on a circle, with 0 at twelve o'clock and angles running clockwise. */
+export const onDial = (cx, cy, r, turns) => {
+  const a = turns * Math.PI * 2 - Math.PI / 2;
+  return [cx + r * Math.cos(a), cy + r * Math.sin(a)];
+};

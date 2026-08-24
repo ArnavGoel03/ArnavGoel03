@@ -8,13 +8,13 @@
 <rect x="0.5" y="0.5" width="1199" height="189" rx="16" fill="none" stroke="rgba(237,230,213,0.10)"/>
 <path d="M22 40L22 22L40 22" fill="none" stroke="rgba(237,230,213,0.22)" stroke-width="1.25"/><path d="M1178 40L1178 22L1160 22" fill="none" stroke="rgba(237,230,213,0.22)" stroke-width="1.25"/><path d="M22 150L22 168L40 168" fill="none" stroke="rgba(237,230,213,0.22)" stroke-width="1.25"/><path d="M1178 150L1178 168L1160 168" fill="none" stroke="rgba(237,230,213,0.22)" stroke-width="1.25"/>
 <text x="56" y="76" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b8578" letter-spacing="2.4">LANGUAGES</text>
-<rect x="1109.23" y="104" width="34.77" height="26" fill="rgba(237,230,213,0.10)"/>
-<rect x="56.00" y="104" width="577.77" height="26" fill="#d9483c"/><rect x="635.77" y="104" width="176.30" height="26" fill="#2f9c82"/><rect x="814.08" y="104" width="88.66" height="26" fill="#ad8329"/><rect x="904.74" y="104" width="60.04" height="26" fill="#3d74be"/><rect x="966.77" y="104" width="59.82" height="26" fill="#d4a96a"/><rect x="1028.60" y="104" width="32.34" height="26" fill="#8a8c5a"/><rect x="1062.93" y="104" width="21.73" height="26" fill="#6d8372"/><rect x="1086.67" y="104" width="20.56" height="26" fill="#c66a5e"/>
+<rect x="1109.38" y="104" width="34.62" height="26" fill="rgba(237,230,213,0.10)"/>
+<rect x="56.00" y="104" width="575.54" height="26" fill="#d9483c"/><rect x="633.54" y="104" width="179.92" height="26" fill="#2f9c82"/><rect x="815.46" y="104" width="88.28" height="26" fill="#ad8329"/><rect x="905.73" y="104" width="59.77" height="26" fill="#3d74be"/><rect x="967.50" y="104" width="59.56" height="26" fill="#d4a96a"/><rect x="1029.07" y="104" width="32.21" height="26" fill="#8a8c5a"/><rect x="1063.28" y="104" width="21.63" height="26" fill="#6d8372"/><rect x="1086.91" y="104" width="20.47" height="26" fill="#c66a5e"/>
 <rect x="56" y="155" width="9" height="9" rx="2" fill="#d9483c"/>
 <text x="74" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">TypeScript</text>
-<text x="168" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8b8578">53.3%</text><rect x="237.33333333333334" y="155" width="9" height="9" rx="2" fill="#2f9c82"/>
+<text x="168" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8b8578">53.1%</text><rect x="237.33333333333334" y="155" width="9" height="9" rx="2" fill="#2f9c82"/>
 <text x="255.33333333333334" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">JavaScript</text>
-<text x="349.33333333333337" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8b8578">16.4%</text><rect x="418.6666666666667" y="155" width="9" height="9" rx="2" fill="#ad8329"/>
+<text x="349.33333333333337" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8b8578">16.7%</text><rect x="418.6666666666667" y="155" width="9" height="9" rx="2" fill="#ad8329"/>
 <text x="436.6666666666667" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">Swift</text>
 <text x="488.6666666666667" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8b8578">8.3%</text><rect x="600" y="155" width="9" height="9" rx="2" fill="#3d74be"/>
 <text x="618" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">MDX</text>
@@ -22,5 +22,5 @@
 <text x="799.3333333333334" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">HTML</text>
 <text x="842.9333333333334" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8b8578">5.7%</text><rect x="962.6666666666667" y="155" width="9" height="9" rx="2" fill="#8a8c5a"/>
 <text x="980.6666666666667" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">CSS</text>
-<text x="1015.8666666666668" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8b8578">3.2%</text>
+<text x="1015.8666666666668" y="164" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8b8578">3.1%</text>
 </svg>

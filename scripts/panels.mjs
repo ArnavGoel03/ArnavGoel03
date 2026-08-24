@@ -16,8 +16,8 @@
  * shows a finished panel.
  */
 import { GEO, TYPE, accentFor } from './tokens.mjs';
-import { STRINGS, MONTHS, sanitize } from './copy.mjs';
-import { esc, text, line, cornerMarks, grid, smoothPath, polylineLength, wrap, measure, panel } from './svg.mjs';
+import { STRINGS, MONTHS, DAYS, TIMEZONE, sanitize } from './copy.mjs';
+import { esc, text, line, cornerMarks, grid, smoothPath, polylineLength, wrap, measure, sparkline, onDial, panel } from './svg.mjs';
 
 const P = GEO.pad;
 const W = GEO.width;
@@ -207,7 +207,7 @@ ${keys}`);
 
 /* ------------------------------------------------------------------- repos */
 
-export function repos(list, t) {
+export function repos(list, t, cadence = new Map()) {
   const COLS = 2;
   const GAP = 40;
   const ROW_GAP = 28;
@@ -235,6 +235,7 @@ ${text(r.name, { x: cx + 28, y: cy + 46, size: TYPE.cardTitle, fill: t.fg, weigh
 ${lines}
 ${lang ? `<circle cx="${cx + 33}" cy="${cy + CH - 28}" r="4" fill="${accent}"/>
 ${text(lang, { x: cx + 46, y: cy + CH - 24, size: TYPE.micro, fill: t.dim, spacing: 1.4 })}` : ''}
+${sparkline(cadence.get(r.nameWithOwner), cx + CW - 148, cy + CH - 46, 120, 24, accent)}
 </g>`;
   }).join('');
 
@@ -244,4 +245,71 @@ ${text(lang, { x: cx + 46, y: cy + CH - 24, size: TYPE.micro, fill: t.dim, spaci
 <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="${GEO.radius}" fill="none" stroke="${t.hair}"/>
 ${cornerMarks(W, H, 22, 18, t.hairStrong)}
 ${cards}`);
+}
+
+/* ------------------------------------------------------------------- clock */
+
+/**
+ * When the commits actually happen: a 24-hour dial beside a weekday histogram.
+ *
+ * A dial is the one chart form that matches the rest of the profile without
+ * being asked to, and hour-of-day is behaviour no other panel here carries.
+ *
+ * Both charts speak one language: intensity, never hue. An earlier version
+ * rotated four accents through the weekday bars and it read as an arbitrary
+ * rainbow. Cream scaled by value, with the single peak in accent, says the
+ * same thing and says it in the same voice as the rest of the profile.
+ */
+export function clock(rhythm, t) {
+  const H = 380;
+  const CX = 300;
+  const CY = 212;
+  // Keep the hub small: a large inner radius puts every spoke on the same tall
+  // base and flattens a distribution that actually spans 2 to 78 commits.
+  const R_IN = 40;
+  const R_OUT = 140;
+
+  const hMax = Math.max(...rhythm.hours, 1);
+  const peakHour = rhythm.hours.reduce((b, v, i) => (v > rhythm.hours[b] ? i : b), 0);
+
+  const spokes = rhythm.hours.map((v, i) => {
+    const [x1, y1] = onDial(CX, CY, R_IN, i / 24);
+    const [x2, y2] = onDial(CX, CY, R_IN + Math.max((v / hMax) * (R_OUT - R_IN), 1), i / 24);
+    const isPeak = i === peakHour;
+    return `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="${isPeak ? accentFor(0) : t.fg}" stroke-opacity="${isPeak ? 1 : (0.22 + 0.68 * (v / hMax)).toFixed(2)}" stroke-width="8" stroke-linecap="round"/>`;
+  }).join('');
+
+  // Only the quarter marks are labelled; twenty-four numbers around a dial this
+  // size is unreadable and the ring already implies the rest.
+  const quarters = [0, 6, 12, 18].map((hr) => {
+    const [lx, ly] = onDial(CX, CY, R_OUT + 20, hr / 24);
+    return text(String(hr).padStart(2, '0'), { x: lx, y: ly + 5, size: TYPE.micro, fill: t.dim, anchor: 'middle', spacing: 1 });
+  }).join('');
+
+  const BX = 560;
+  const BW = RIGHT - BX;
+  const BASE = 300;
+  const TOPB = 122;
+  const dMax = Math.max(...rhythm.dow, 1);
+  const peakDay = rhythm.dow.reduce((b, v, i) => (v > rhythm.dow[b] ? i : b), 0);
+  const slot = BW / 7;
+
+  const bars = rhythm.dow.map((v, i) => {
+    const bw = Math.min(46, slot - 22);
+    const bx = BX + slot * i + (slot - bw) / 2;
+    const bh = Math.max(2, (v / dMax) * (BASE - TOPB));
+    return `<rect x="${bx.toFixed(1)}" y="${(BASE - bh).toFixed(1)}" width="${bw.toFixed(1)}" height="${bh.toFixed(1)}" rx="3" fill="${i === peakDay ? accentFor(0) : t.fg}" fill-opacity="${i === peakDay ? 1 : (0.22 + 0.68 * (v / dMax)).toFixed(2)}"/>
+${text(DAYS[i], { x: bx + bw / 2, y: BASE + 24, size: TYPE.micro, fill: t.dim, anchor: 'middle', spacing: 1 })}`;
+  }).join('');
+
+  return panel(W, H, `${clip(H)}${shell(H, t)}
+${text(STRINGS.commits, { x: P, y: 72, size: TYPE.statLabel, fill: t.dim, spacing: 2.4 })}
+${text(TIMEZONE.label, { x: RIGHT, y: 72, size: TYPE.micro, fill: t.dim, spacing: 1.4, anchor: 'end' })}
+<circle cx="${CX}" cy="${CY}" r="${R_IN - 7}" fill="none" stroke="${t.hair}"/>
+<circle cx="${CX}" cy="${CY}" r="${R_OUT + 6}" fill="none" stroke="${t.hair}"/>
+${spokes}
+${quarters}
+${text(n(Math.round(rhythm.total)), { x: CX, y: CY + 6, size: 17, fill: t.fg, weight: 500, anchor: 'middle' })}
+${line(BX, BASE, RIGHT, BASE, t.hairStrong)}
+${bars}`);
 }
