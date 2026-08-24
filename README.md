@@ -30,10 +30,10 @@ UCSD Data Science, graduating June 2026 - BS Data Science with a minor in Entrep
   <img alt="Selected repositories" src="assets/repos-light.svg">
 </picture>
 
-**What's next**
+**What's next**<br>
 Considering new-grad applied-scientist, ML-engineer, and SWE roles for summer 2026 onward - especially in health, commerce, or infrastructure. See [arnavgoel.dev/work](https://arnavgoel.dev/work) for specifics.
 
-**Elsewhere**
+**Elsewhere**<br>
 [arnavgoel.dev](https://arnavgoel.dev) · [LinkedIn](https://www.linkedin.com/in/arnav-goel--/) · [ORCID](https://orcid.org/0009-0007-6477-6501)
 
 <sub>I go by Arnav publicly. Yash Goel is my legal name (UCSD transcripts, email, background checks).</sub>
