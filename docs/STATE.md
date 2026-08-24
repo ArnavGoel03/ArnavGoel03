@@ -41,10 +41,17 @@ with its true value.
 
 ## Open
 
-- `PROFILE_TOKEN` is not set. Without a user PAT the scheduled run sees public
-  contributions only, so the counter would fall from 3,918 to roughly 885 on the
-  first scheduled redraw. Needs a fine-grained PAT with read-only user access,
-  added as a repo secret named `PROFILE_TOKEN`. Until then the committed panels
-  are correct but the daily job will regress the number.
-- Panel copy is drawn from the GitHub profile fields and README. If the bio or
-  site changes, update `scripts/copy.mjs` rather than editing an SVG.
+Nothing blocking. The daily job is verified: the first scheduled-path run
+committed `863ba5c` on its own.
+
+## Contribution count and tokens, settled
+
+The first draft of this file claimed a user PAT was required or the counter
+would fall to public-only. That is wrong, and the Action disproved it on its
+first run: with the default `github.token` it still rendered 3,919.
+
+The reason is that "include private contributions on my profile" is enabled on
+the account, which makes `contributionCalendar.totalContributions` public to
+any authenticated token. The workflow keeps a `secrets.PROFILE_TOKEN` fallback
+anyway, so that turning that setting off later degrades to public-only instead
+of silently rendering a wrong number. No secret needs creating today.

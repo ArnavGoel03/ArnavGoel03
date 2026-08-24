@@ -33,10 +33,11 @@ jobs:
 
       - name: Render panels
         env:
-          # PROFILE_TOKEN is a user PAT with read-only access, which is the only
-          # way the contribution count can include private work. Without it the
-          # default Actions token sees public contributions only and the number
-          # on the panel drops. The build logs which mode it ran in.
+          # The default token is enough today: "include private contributions on
+          # my profile" is enabled on the account, so the aggregate count is
+          # public and any token sees the full number. PROFILE_TOKEN is an
+          # optional user PAT, kept only so that turning that setting off later
+          # degrades to public-only rather than rendering a wrong number.
           GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
         run: node scripts/build.mjs
 
