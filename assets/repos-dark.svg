@@ -14,7 +14,7 @@
 <text x="84" y="136" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">Watch videos together in real time. Sync Netflix,</text><text x="84" y="158" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">YouTube, JioHotstar and any video site with friends.</text>
 <circle cx="89" cy="206" r="4" fill="#d9483c"/>
 <text x="102" y="210" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8578" letter-spacing="1.4">JavaScript</text>
-<line x1="432" y1="213.5" x2="552" y2="213.5" stroke="#d9483c" stroke-opacity=".28" stroke-width="1"/><rect x="505.8" y="188.0" width="1.7" height="24.0" fill="#d9483c"/><rect x="508.2" y="209.3" width="1.7" height="2.7" fill="#d9483c"/><rect x="510.5" y="205.3" width="1.7" height="6.7" fill="#d9483c"/><rect x="522.0" y="210.7" width="1.7" height="1.3" fill="#d9483c"/><rect x="535.8" y="210.7" width="1.7" height="1.3" fill="#d9483c"/><rect x="547.4" y="198.0" width="1.7" height="14.0" fill="#d9483c"/><rect x="549.7" y="200.7" width="1.7" height="11.3" fill="#d9483c"/>
+<line x1="432" y1="213.5" x2="552" y2="213.5" stroke="#d9483c" stroke-opacity=".28" stroke-width="1"/><rect x="503.5" y="188.0" width="1.7" height="24.0" fill="#d9483c"/><rect x="505.8" y="209.3" width="1.7" height="2.7" fill="#d9483c"/><rect x="508.2" y="205.3" width="1.7" height="6.7" fill="#d9483c"/><rect x="519.7" y="210.7" width="1.7" height="1.3" fill="#d9483c"/><rect x="533.5" y="210.7" width="1.7" height="1.3" fill="#d9483c"/><rect x="545.1" y="198.0" width="1.7" height="14.0" fill="#d9483c"/><rect x="547.4" y="200.7" width="1.7" height="11.3" fill="#d9483c"/>
 </g><g>
 <rect x="620" y="56" width="524" height="178" rx="12" fill="#1a1815" stroke="rgba(237,230,213,0.10)"/>
 <path d="M632 56H623A3 3 0 0 0 620 59V231A3 3 0 0 0 623 234H632Z" fill="#2f9c82"/>
@@ -22,7 +22,7 @@
 <text x="648" y="136" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">Follow-along transcripts for any media element.</text><text x="648" y="158" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">Word-level highlighting, auto-scroll, search, and the</text><text x="648" y="180" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">whisper.cpp pipeline that makes the timings. ~14 KB,...</text>
 <circle cx="653" cy="206" r="4" fill="#2f9c82"/>
 <text x="666" y="210" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8578" letter-spacing="1.4">JavaScript</text>
-<line x1="996" y1="213.5" x2="1116" y2="213.5" stroke="#2f9c82" stroke-opacity=".28" stroke-width="1"/><rect x="1113.7" y="188.0" width="1.7" height="24.0" fill="#2f9c82"/>
+<line x1="996" y1="213.5" x2="1116" y2="213.5" stroke="#2f9c82" stroke-opacity=".28" stroke-width="1"/><rect x="1111.4" y="188.0" width="1.7" height="24.0" fill="#2f9c82"/>
 </g><g>
 <rect x="56" y="262" width="524" height="178" rx="12" fill="#1a1815" stroke="rgba(237,230,213,0.10)"/>
 <path d="M68 262H59A3 3 0 0 0 56 265V437A3 3 0 0 0 59 440H68Z" fill="#ad8329"/>
@@ -30,7 +30,7 @@
 <text x="84" y="342" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">An interactive 3D Earth. Real Natural Earth borders, a</text><text x="84" y="364" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">land dot field sampled from a real mask, WebGPU with a</text><text x="84" y="386" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">WebGL2 fallback.</text>
 <circle cx="89" cy="412" r="4" fill="#ad8329"/>
 <text x="102" y="416" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8578" letter-spacing="1.4">JavaScript</text>
-<line x1="432" y1="419.5" x2="552" y2="419.5" stroke="#ad8329" stroke-opacity=".28" stroke-width="1"/><rect x="545.1" y="394.0" width="1.7" height="24.0" fill="#ad8329"/>
+<line x1="432" y1="419.5" x2="552" y2="419.5" stroke="#ad8329" stroke-opacity=".28" stroke-width="1"/><rect x="542.8" y="394.0" width="1.7" height="24.0" fill="#ad8329"/>
 </g><g>
 <rect x="620" y="262" width="524" height="178" rx="12" fill="#1a1815" stroke="rgba(237,230,213,0.10)"/>
 <path d="M632 262H623A3 3 0 0 0 620 265V437A3 3 0 0 0 623 440H632Z" fill="#3d74be"/>
@@ -38,7 +38,7 @@
 <text x="648" y="342" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">Simple Games studio site. Games whose rolls you can</text><text x="648" y="364" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">check.</text>
 <circle cx="653" cy="412" r="4" fill="#3d74be"/>
 <text x="666" y="416" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8578" letter-spacing="1.4">TypeScript</text>
-<line x1="996" y1="419.5" x2="1116" y2="419.5" stroke="#3d74be" stroke-opacity=".28" stroke-width="1"/><rect x="1109.1" y="410.4" width="1.7" height="7.6" fill="#3d74be"/><rect x="1111.4" y="394.0" width="1.7" height="24.0" fill="#3d74be"/><rect x="1113.7" y="414.2" width="1.7" height="3.8" fill="#3d74be"/>
+<line x1="996" y1="419.5" x2="1116" y2="419.5" stroke="#3d74be" stroke-opacity=".28" stroke-width="1"/><rect x="1106.8" y="410.4" width="1.7" height="7.6" fill="#3d74be"/><rect x="1109.1" y="394.0" width="1.7" height="24.0" fill="#3d74be"/><rect x="1111.4" y="414.2" width="1.7" height="3.8" fill="#3d74be"/>
 </g><g>
 <rect x="56" y="468" width="524" height="178" rx="12" fill="#1a1815" stroke="rgba(237,230,213,0.10)"/>
 <path d="M68 468H59A3 3 0 0 0 56 471V643A3 3 0 0 0 59 646H68Z" fill="#d4a96a"/>
@@ -46,7 +46,7 @@
 <text x="84" y="548" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">Personal portfolio - Data Science &amp; Entrepreneurship |</text><text x="84" y="570" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">Built with Next.js, Notion CMS, Tailwind CSS, Framer</text><text x="84" y="592" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">Motion</text>
 <circle cx="89" cy="618" r="4" fill="#d4a96a"/>
 <text x="102" y="622" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8578" letter-spacing="1.4">TypeScript</text>
-<line x1="432" y1="625.5" x2="552" y2="625.5" stroke="#d4a96a" stroke-opacity=".28" stroke-width="1"/><rect x="503.5" y="613.3" width="1.7" height="10.7" fill="#d4a96a"/><rect x="505.8" y="622.0" width="1.7" height="2.0" fill="#d4a96a"/><rect x="508.2" y="600.0" width="1.7" height="24.0" fill="#d4a96a"/><rect x="510.5" y="620.4" width="1.7" height="3.6" fill="#d4a96a"/><rect x="526.6" y="623.0" width="1.7" height="1.0" fill="#d4a96a"/><rect x="533.5" y="622.0" width="1.7" height="2.0" fill="#d4a96a"/><rect x="538.2" y="623.0" width="1.7" height="1.0" fill="#d4a96a"/><rect x="540.5" y="623.0" width="1.7" height="1.0" fill="#d4a96a"/><rect x="545.1" y="621.4" width="1.7" height="2.6" fill="#d4a96a"/><rect x="547.4" y="621.4" width="1.7" height="2.6" fill="#d4a96a"/><rect x="549.7" y="602.0" width="1.7" height="22.0" fill="#d4a96a"/>
+<line x1="432" y1="625.5" x2="552" y2="625.5" stroke="#d4a96a" stroke-opacity=".28" stroke-width="1"/><rect x="501.2" y="613.3" width="1.7" height="10.7" fill="#d4a96a"/><rect x="503.5" y="622.0" width="1.7" height="2.0" fill="#d4a96a"/><rect x="505.8" y="600.0" width="1.7" height="24.0" fill="#d4a96a"/><rect x="508.2" y="620.4" width="1.7" height="3.6" fill="#d4a96a"/><rect x="524.3" y="623.0" width="1.7" height="1.0" fill="#d4a96a"/><rect x="531.2" y="622.0" width="1.7" height="2.0" fill="#d4a96a"/><rect x="535.8" y="623.0" width="1.7" height="1.0" fill="#d4a96a"/><rect x="538.2" y="623.0" width="1.7" height="1.0" fill="#d4a96a"/><rect x="542.8" y="621.4" width="1.7" height="2.6" fill="#d4a96a"/><rect x="545.1" y="621.4" width="1.7" height="2.6" fill="#d4a96a"/><rect x="547.4" y="602.0" width="1.7" height="22.0" fill="#d4a96a"/>
 </g><g>
 <rect x="620" y="468" width="524" height="178" rx="12" fill="#1a1815" stroke="rgba(237,230,213,0.10)"/>
 <path d="M632 468H623A3 3 0 0 0 620 471V643A3 3 0 0 0 623 646H632Z" fill="#8a8c5a"/>
@@ -54,7 +54,7 @@
 <text x="648" y="548" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">A living family history of the Goel family of Banda,</text><text x="648" y="570" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">Uttar Pradesh - six generations, four continents, six</text><text x="648" y="592" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">jewellery shops in one town.</text>
 <circle cx="653" cy="618" r="4" fill="#8a8c5a"/>
 <text x="666" y="622" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8578" letter-spacing="1.4">TypeScript</text>
-<line x1="996" y1="625.5" x2="1116" y2="625.5" stroke="#8a8c5a" stroke-opacity=".28" stroke-width="1"/><rect x="1072.2" y="600.0" width="1.7" height="24.0" fill="#8a8c5a"/><rect x="1074.5" y="622.9" width="1.7" height="1.1" fill="#8a8c5a"/><rect x="1099.8" y="622.9" width="1.7" height="1.1" fill="#8a8c5a"/><rect x="1109.1" y="623.0" width="1.7" height="1.0" fill="#8a8c5a"/>
+<line x1="996" y1="625.5" x2="1116" y2="625.5" stroke="#8a8c5a" stroke-opacity=".28" stroke-width="1"/><rect x="1069.8" y="600.0" width="1.7" height="24.0" fill="#8a8c5a"/><rect x="1072.2" y="622.9" width="1.7" height="1.1" fill="#8a8c5a"/><rect x="1097.5" y="622.9" width="1.7" height="1.1" fill="#8a8c5a"/><rect x="1106.8" y="623.0" width="1.7" height="1.0" fill="#8a8c5a"/>
 </g><g>
 <rect x="56" y="674" width="524" height="178" rx="12" fill="#1a1815" stroke="rgba(237,230,213,0.10)"/>
 <path d="M68 674H59A3 3 0 0 0 56 677V849A3 3 0 0 0 59 852H68Z" fill="#6d8372"/>
@@ -62,7 +62,7 @@
 <text x="84" y="754" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">End-term Social Media Analytics project on Red Bull</text><text x="84" y="776" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">YouTube. VADER sentiment on 500 comments (Net Sentiment</text><text x="84" y="798" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">+28.6pp, 2x benchmark), 9 charts, Excel dashboard, and...</text>
 <circle cx="89" cy="824" r="4" fill="#6d8372"/>
 <text x="102" y="828" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8578" letter-spacing="1.4">Python</text>
-<line x1="432" y1="831.5" x2="552" y2="831.5" stroke="#6d8372" stroke-opacity=".28" stroke-width="1"/><rect x="508.2" y="806.0" width="1.7" height="24.0" fill="#6d8372"/>
+<line x1="432" y1="831.5" x2="552" y2="831.5" stroke="#6d8372" stroke-opacity=".28" stroke-width="1"/><rect x="505.8" y="806.0" width="1.7" height="24.0" fill="#6d8372"/>
 </g><g>
 <rect x="620" y="674" width="524" height="178" rx="12" fill="#1a1815" stroke="rgba(237,230,213,0.10)"/>
 <path d="M632 674H623A3 3 0 0 0 620 677V849A3 3 0 0 0 623 852H632Z" fill="#c66a5e"/>
@@ -70,6 +70,6 @@
 <text x="648" y="754" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">this is a project for DSC 80 at UCSD.</text>
 <circle cx="653" cy="824" r="4" fill="#c66a5e"/>
 <text x="666" y="828" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8578" letter-spacing="1.4">HTML</text>
-<line x1="996" y1="831.5" x2="1116" y2="831.5" stroke="#c66a5e" stroke-opacity=".28" stroke-width="1"/><rect x="1026.0" y="825.5" width="1.7" height="4.5" fill="#c66a5e"/><rect x="1028.3" y="806.0" width="1.7" height="24.0" fill="#c66a5e"/><rect x="1072.2" y="827.8" width="1.7" height="2.2" fill="#c66a5e"/>
+<line x1="996" y1="831.5" x2="1116" y2="831.5" stroke="#c66a5e" stroke-opacity=".28" stroke-width="1"/><rect x="1023.7" y="825.5" width="1.7" height="4.5" fill="#c66a5e"/><rect x="1026.0" y="806.0" width="1.7" height="24.0" fill="#c66a5e"/><rect x="1069.8" y="827.8" width="1.7" height="2.2" fill="#c66a5e"/>
 </g>
 </svg>
