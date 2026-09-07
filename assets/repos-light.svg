@@ -30,7 +30,7 @@
 <text x="84" y="342" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#5f594e">An interactive 3D Earth. Real Natural Earth borders, a</text><text x="84" y="364" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#5f594e">land dot field sampled from a real mask, WebGPU with a</text><text x="84" y="386" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#5f594e">WebGL2 fallback.</text>
 <circle cx="89" cy="412" r="4" fill="#ad8329"/>
 <text x="102" y="416" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#7a7367" letter-spacing="1.4">JavaScript</text>
-<line x1="432" y1="419.5" x2="552" y2="419.5" stroke="#ad8329" stroke-opacity=".28" stroke-width="1"/><rect x="542.8" y="394.0" width="1.7" height="24.0" fill="#ad8329"/>
+<line x1="432" y1="419.5" x2="552" y2="419.5" stroke="#ad8329" stroke-opacity=".28" stroke-width="1"/><rect x="540.5" y="394.0" width="1.7" height="24.0" fill="#ad8329"/>
 </g><g>
 <rect x="620" y="262" width="524" height="178" rx="12" fill="#ece7db" stroke="rgba(18,17,16,0.14)"/>
 <path d="M632 262H623A3 3 0 0 0 620 265V437A3 3 0 0 0 623 440H632Z" fill="#3d74be"/>
