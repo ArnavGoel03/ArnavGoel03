@@ -70,6 +70,6 @@
 <text x="648" y="754" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#a9a293">this is a project for DSC 80 at UCSD.</text>
 <circle cx="653" cy="824" r="4" fill="#c66a5e"/>
 <text x="666" y="828" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b8578" letter-spacing="1.4">HTML</text>
-<line x1="996" y1="831.5" x2="1116" y2="831.5" stroke="#c66a5e" stroke-opacity=".28" stroke-width="1"/><rect x="1019.1" y="825.5" width="1.7" height="4.5" fill="#c66a5e"/><rect x="1021.4" y="806.0" width="1.7" height="24.0" fill="#c66a5e"/><rect x="1065.2" y="827.8" width="1.7" height="2.2" fill="#c66a5e"/>
+<line x1="996" y1="831.5" x2="1116" y2="831.5" stroke="#c66a5e" stroke-opacity=".28" stroke-width="1"/><rect x="1019.1" y="825.5" width="1.7" height="4.5" fill="#c66a5e"/><rect x="1021.4" y="806.0" width="1.7" height="24.0" fill="#c66a5e"/><rect x="1065.2" y="827.8" width="1.7" height="2.2" fill="#c66a5e"/><rect x="1113.7" y="828.9" width="1.7" height="1.1" fill="#c66a5e"/>
 </g>
 </svg>
